@@ -6,6 +6,7 @@ Table Of Contents
 | :--------------- | :-------------------------------- |
 | [Intro](#1)      | `process` `global`, what is node |
 | [Why node](#2.5) | non-blocking, benefits of node   |
+| [Require](#2.9)| using require |
 
 
 
@@ -42,3 +43,5 @@ Table Of Contents
     - non blocking does not require multiple threads, which saves resources
 - npm
   - package manager for 3rd party modules
+
+<h2 id="2.9">Using require</h2>
