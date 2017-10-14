@@ -1,10 +1,10 @@
 # Work for udemy course
 
 Table Of Contents
-| Title | description                      |
-| ----- | -------------------------------- |
-| [Intro](1) | `process` `global`, what is node |
-| [Why node](2.5)| non-blocking, benefits of node|
+| Title           | description                      |
+| --------------- | -------------------------------- |
+| [Intro](1)      | `process` `global`, what is node |
+| [Why node](2.5) | non-blocking, benefits of node   |
 
 
 
@@ -18,7 +18,7 @@ Table Of Contents
    - blocking:  
     ```javascript
     var getUserSync = require(./getUserSync);
-    var user1 = getUserSyng('1);
+    var user1 = getUserSyng('1');
     console.log('user',user1);
     #sum has to wait to get user
     var sum = 1+2;
@@ -34,7 +34,7 @@ Table Of Contents
     var sum = 1+2;
     console.log('sum',sum);
     ```
-      - non blocking allows for faster processing.
-      - non blocking does not require multiple threads, which saves resources
+    - non blocking allows for faster processing.
+    - non blocking does not require multiple threads, which saves resources
 - npm
   - package manager for 3rd party modules
