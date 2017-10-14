@@ -11,10 +11,13 @@ Table Of Contents
 
 
 <h2 id="1">Intro</h2>
+
 - Node is a javascript runtime running on v8, v8 takes js code and turns the into machine code
 -  Node has the `global` variable which contains all variable accessible to node enviroment
 - `process` is a variable ontop of `global`, that manipulates the current process
+
 <h2 id="2.5">Why Node</h2>
+
 - non-blocking
    - blocking:  
     ```javascript
