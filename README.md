@@ -6,7 +6,7 @@ Table Of Contents
 | :--------------- | :-------------------------------- |
 | [Intro](#1)      | `process` `global`, what is node |
 | [Why node](#2.5) | non-blocking, benefits of node   |
-| [Require](#2.9)| using require |
+| [Require](#2.9)| using require, file system, os modules |
 
 
 
@@ -45,3 +45,9 @@ Table Of Contents
   - package manager for 3rd party modules
 
 <h2 id="2.9">Using require</h2>
+
+- nodejs.org/api
+  - Will show you all available built in modules
+  - fs : is the built in module to access file system
+    - it will allow to manipulate files on the files system, like to add content to a file
+  - os : module to get operating system data
