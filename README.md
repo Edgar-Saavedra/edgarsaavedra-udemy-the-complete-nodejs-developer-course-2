@@ -6,7 +6,8 @@ Table Of Contents
 | :--------------- | :-------------------------------- |
 | [Intro](#1)      | `process` `global`, what is node |
 | [Why node](#2.5) | non-blocking, benefits of node   |
-| [Require](#2.9)| using require, file system, os modules |
+| [Require](#2.9)| using require, file system, os modules|
+| [modules](#v-10)| creating modules |
 
 
 
@@ -51,3 +52,9 @@ Table Of Contents
   - fs : is the built in module to access file system
     - it will allow to manipulate files on the files system, like to add content to a file
   - os : module to get operating system data
+
+
+<h2 id="v-10">Modules</h2>
+
+- `module` variable allows to modules by adding to its properties `module.exports.PROPERTY`
+- using `require('./file.js');` and passing to var you can access module properties
