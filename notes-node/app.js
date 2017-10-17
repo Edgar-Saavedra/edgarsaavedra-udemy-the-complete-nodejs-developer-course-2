@@ -7,7 +7,7 @@ const _  = require('lodash');
 console.log(_.isString(true));
 console.log(_.isString('Edgar'));
 
-var filteredArray = _.uniq(['And','Edgar',1,'Edgar',1,2,3,4]);
+var filteredArray = _.uniq(['And','Edgar',1,'Edgar','mike',1,2,3,4]);
 console.log(filteredArray);
 
 
