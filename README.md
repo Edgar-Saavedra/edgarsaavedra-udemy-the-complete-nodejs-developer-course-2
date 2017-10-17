@@ -70,3 +70,12 @@ Table Of Contents
     - --save updates the content of the package files.
   - modules installed into node_modules folder.
   - `var _ = require('lodash')` to require a 3rd party module
+
+
+<h2 id="v-12">No restart app module</h2>
+
+- `npm install nodemon -g`
+  - it is a command line utility
+  - -g installs into enviroment
+  - nodemon allows for no need to restart application
+  - RUN: `$ nodemon app.js`
