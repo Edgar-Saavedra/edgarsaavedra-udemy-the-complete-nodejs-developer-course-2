@@ -58,3 +58,15 @@ Table Of Contents
 
 - `module` variable allows to modules by adding to its properties `module.exports.PROPERTY`
 - using `require('./file.js');` and passing to var you can access module properties
+
+
+<h2 id="v-11">Using 3rd Party</h2>
+
+- `npm -v` get version
+- `npm int` to create npm project
+  - Creates single file in project, `package.json` use for modules installed
+  - [npmjs.com](npmjs.com) to view module details
+  - `$ npm install loadash --save` 
+    - --save updates the content of the package files.
+  - modules installed into node_modules folder.
+  - `var _ = require('lodash')` to require a 3rd party module
