@@ -79,3 +79,10 @@ Table Of Contents
   - -g installs into enviroment
   - nodemon allows for no need to restart application
   - RUN: `$ nodemon app.js`
+
+
+<h2 id="v-13">Getting user input</h2>
+
+- `console.log(process.argv);` to access commandline arguments
+- `process.argv[2]` custom commands start at position 2
+- process.argv allows access to all commandline arguments
