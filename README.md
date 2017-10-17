@@ -66,7 +66,7 @@ Table Of Contents
 - `npm int` to create npm project
   - Creates single file in project, `package.json` use for modules installed
   - [npmjs.com](npmjs.com) to view module details
-  - `$ npm install loadash --save` 
+  - `$ npm install loadash --save`
     - --save updates the content of the package files.
   - modules installed into node_modules folder.
   - `var _ = require('lodash')` to require a 3rd party module
