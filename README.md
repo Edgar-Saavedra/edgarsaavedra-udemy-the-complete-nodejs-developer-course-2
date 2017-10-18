@@ -8,6 +8,10 @@ Table Of Contents
 | [Why node](#2.5) | non-blocking, benefits of node   |
 | [Require](#2.9)| using require, file system, os modules|
 | [modules](#v-10)| creating modules |
+| [Using 3rd Party](#v-11)|  |
+| [No restart app module](#v-12)|  |
+| [Getting user input (command line)](#v-13)|  |
+| [Simplified input with Yargs Module](#v-14)|  |
 
 
 
@@ -86,3 +90,15 @@ Table Of Contents
 - `console.log(process.argv);` to access commandline arguments
 - `process.argv[2]` custom commands start at position 2
 - process.argv allows access to all commandline arguments
+
+<h2 id="v-14">Simplified input with Yargs Module</h2>
+
+- Yargs module/library Makes parsing much easier
+  - Parsing user input is a pain without yargs
+  - npm install yargs@4.7.1 --save
+  - `const yargs = require('yargs');`
+  - `const argv = yargs.argv;` # yargs has its own version of argv
+  - checkout the `yargs.argv` output
+  - `node app.js add` 
+  - # When encountering errors
+    - the firs piece in stacktrace is usually realted to our app
