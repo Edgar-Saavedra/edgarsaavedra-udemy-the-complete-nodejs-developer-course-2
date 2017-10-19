@@ -15,7 +15,12 @@ var command = argv._[0];
 
 if( command === 'add' ) {
   // console.log('Adding new note');
-  notes.addNote(argv.title,argv.body);
+  var note = notes.addNote(argv.title,argv.body);
+  if(note) {
+    console.log('Note created',argv.title,argv.body);
+  } else {
+    console.log(`Notes not create , taken : ${argv.title}`);
+  }
 } else if( command === 'list' ) {
   // console.log('Listing all notes');
   notes.getAll();
