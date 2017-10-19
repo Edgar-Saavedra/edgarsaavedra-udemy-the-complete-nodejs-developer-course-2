@@ -110,3 +110,18 @@ Table Of Contents
 - `JSON.parse(STR)` will take a string and converst to object
 - Write to file `fs.writeFileSync('notes.json',originalNote)`
 - Read from file `var noteString = fs.readFileSync('notes.json');` 
+
+
+<h2 id="v-16">Additional JSON</h2>
+
+- Arrow functions can be written like :
+  ```javascript
+  notes.filter((note)=>note.title === title);
+  ```
+  or 
+  ```javascript
+  notes.filter((note)=>{
+    note.title === title
+  });
+  ```
+- Array object has function that allows to filters items in array .  
