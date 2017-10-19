@@ -102,3 +102,11 @@ Table Of Contents
   - `node app.js add` 
   - # When encountering errors
     - the firs piece in stacktrace is usually realted to our app
+
+
+<h2 id="v-15">JSON</h2>
+- `JSON.stringify(obj);` to turn js object to string
+- JSON requires doube quotes "" around properties
+- `JSON.parse(STR)` will take a string and converst to object
+- Write to file `fs.writeFileSync('notes.json',originalNote)`
+- Read from file `var noteString = fs.readFileSync('notes.json');` 
